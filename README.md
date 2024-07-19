@@ -17,6 +17,9 @@ http://localhost:8181/extract/?url=https://example.com
 The script will execute the [Trafilatura tool](https://trafilatura.readthedocs.io/en/latest/) and return the extracted content in JSON format.
 
 ## Response Format
+
+![image](https://github.com/user-attachments/assets/ee380260-05fa-48d6-8f4c-a8672eb2201a)
+
 The script returns a JSON response with the following format:
 ```json
 {
