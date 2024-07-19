@@ -3,10 +3,13 @@
 This PowerShell script creates an HTTP listener that accepts requests to extract content from a URL using the Trafilatura tool.
 
 ## Usage
-To use this script, simply run it in PowerShell and specify the port number you want to use (default is 8181):
+To use this script, simply run it in PowerShell and specify the port number you want to use (default is 8181) - **run as Administrator**:
+
 ```
 .\UrlContentExtractor.ps1 -Port 8181
 ```
+
+![image](https://github.com/user-attachments/assets/bcf933f9-dd9e-4432-b715-26bcca828529)
 
 Once the script is running, you can send an HTTP request to `http://localhost:8181/extract/` with a url query string parameter set to the URL you want to extract content from. For example:
 
