@@ -9,7 +9,8 @@ To use this script, simply run it in PowerShell and specify the port number you 
 .\UrlContentExtractor.ps1 -Port 8181
 ```
 
-![image](https://github.com/user-attachments/assets/bcf933f9-dd9e-4432-b715-26bcca828529)
+![image](https://github.com/user-attachments/assets/afcfe806-8ed9-4a90-a739-f17446b68704)
+
 
 Once the script is running, you can send an HTTP request to `http://localhost:8181/extract/` with a url query string parameter set to the URL you want to extract content from. For example:
 
