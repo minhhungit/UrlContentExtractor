@@ -8,7 +8,7 @@ try
 	$listener = [System.Net.HttpListener]::new()
 	$listener.Prefixes.Add("http://*:$Port/extract/")
 	$listener.Start()
-	Write-Output "Listening on http://*:$Port/extract/"
+	Write-Output "Listening on http://localhost:$Port/extract/"
 	
 	while ($true) {
 		
